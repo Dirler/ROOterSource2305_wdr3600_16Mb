@@ -191,5 +191,18 @@
 		"mod": "Ubiquiti-EdgeRouter4",
 		"ext": "-upgrade.tar",
 		"addons": ["readme.pdf", "readmerecovery.txt"]
+	},
+	"WDR3600_16M": {
+		"details": "TP-Link WDR3600 16M",
+		"type": "2",
+		"build": "2305",
+		"config": ".config_wdr3600_16m",
+		"image1": "openwrt-ath79-generic-tplink_tl-wdr3600-16m-squashfs-sysupgrade.bin",
+		"image2": "openwrt-ath79-generic-tplink_tl-wdr3600-16m-squashfs-factory.bin",
+		"imagepath": "/ath79/generic/",
+		"mod": "TP-Link-WDR360016M",
+		"ext1": "-upgrade.bin",
+		"ext2": "-factory.bin",
+		"addons": ["readme.pdf", "archer.txt"]
 	}
 }
